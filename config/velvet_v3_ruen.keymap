@@ -147,10 +147,10 @@
 
         hotkeys {
             bindings = <
-&none  &none  &none  &none  &none  &none                   &trans  &trans  &trans  &trans  &trans  &trans
-&none  &none  &none  &none  &none  &none                   &trans  &trans  &trans  &trans  &trans  &trans
-&none  &none  &none  &none  &none  &none                   &trans  &trans  &trans  &trans  &trans  &trans
-              &none  &none  &none  &none  &none    &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &kp LG(LS(KP_NUMBER_4))                   &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none                                     &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none                                     &trans  &trans  &trans  &trans  &trans  &trans
+              &none  &none  &none  &none                    &none    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
