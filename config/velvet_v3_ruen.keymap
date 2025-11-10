@@ -78,16 +78,6 @@
     };
 
     behaviors {
-        tlesc: tlesc {
-            compatible = "zmk,behavior-mod-morph";
-            label = "Tilda Escape Behavior";
-            bindings = <&kp ESC>, <&kp TILDE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_LGUI)>;
-        };
-
         gravesc: gravesc {
             compatible = "zmk,behavior-mod-morph";
             label = "Grave Escape Behavior";
